@@ -29,8 +29,8 @@
 
 
 ### 4.程式碼說明
-##### Uart data write ddr.C
+##### UART_ddr.c
 * 使用xinlinx sdk將Uart介面做為接收端，將python所發送的灰階值接收，接收的資料利用迴圈將其存入ddr    
-##### resize img and uartsend.py 
+##### resize_UART.py 
 * 將原圖進行灰階處理，並將灰值圖縮放成64x128的大小，將64x128的灰值圖pixel以8bit的形式通過Uart傳進fpga做接收  
 ##### 其餘程式碼為實驗室IP，此處不公布 
